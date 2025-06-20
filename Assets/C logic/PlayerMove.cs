@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class playermove : MonoBehaviour
+public class PlayerMove : MonoBehaviour
 {
     //变量声明 
     private Rigidbody2D player;//人物变量

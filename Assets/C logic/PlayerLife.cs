@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Player_life : MonoBehaviour
+public class PlayerLife : MonoBehaviour
 {
     private Rigidbody2D player; // 玩家的刚体组件，用于物理控制
     private Animator anim; // 玩家的动画组件

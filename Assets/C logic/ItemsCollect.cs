@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Playercollect : MonoBehaviour
+public class ItemsCollect : MonoBehaviour
 {
     private int bananas = 0;
     [SerializeField] private Text bananasText;
