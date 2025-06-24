@@ -1,0 +1,2 @@
+1.如何通过除了animotion 方式直接让动画旋转起来？
+	函数transform.Rotate()方法用于旋转物体，参数分别代表绕x、y、z轴的旋转角度，Time.deltaTime确保旋转速度与帧率无关
