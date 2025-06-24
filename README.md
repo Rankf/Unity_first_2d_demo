@@ -33,3 +33,7 @@
 		触发器与碰撞检测的区别 ：在 Unity 中，“Is Trigger”选项决定了 Collider 组件是用于触发事件还是用于物理碰撞检测。
 	当“Is Trigger”被勾选时，Collider 会用于触发事件（如 OnTriggerEnter2D、OnTriggerExit2D 等），而不是用于物理碰撞检测。
 	而 PlatformEffector2D组件是设计用来与物理碰撞系统交互的，它依赖于 Collider 进行正常的碰撞检测来实现其功能，例如对平台上	  的角色施加力等效果。
+##6.24
+	1.如何通过除了animotion 方式直接让动画旋转起来？
+	函数transform.Rotate()方法用于旋转物体，参数分别代表绕x、y、z轴的旋转角度，Time.deltaTime确保旋转速度与帧率无关
+	2.git push 失败 代理导致要刷新DNS缓存ipconfig /flushdns
